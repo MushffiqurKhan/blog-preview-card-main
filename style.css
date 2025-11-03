@@ -93,6 +93,7 @@ h3{
 @media (max-width: 939px) {
   .container {
     height: 480px;
+    width: 30%;
   }
   .name_logo {
     display: flex;
@@ -108,6 +109,8 @@ h3{
 @media (max-width: 810px) {
   .container {
     height: 500px;
+    width: 32%;
+
   }
 }
 
@@ -115,16 +118,20 @@ h3{
 @media (max-width: 676px) {
   .container {
     height: 520px;
+    width: 34%;
+
   }
 }
 
 @media (max-width: 604px) {
   .container {
     height: 700px;
+    width: 36%;
+
   }
 
   .name_logo {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 }
