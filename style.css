@@ -28,7 +28,6 @@ body{
     box-shadow: 6px 7px 0px 2px #000000;
     border-radius: 10px;
     background-color: aliceblue;
-    
 }
 .banner_img{
     border-radius: 8px;
@@ -74,18 +73,28 @@ h3{
 .name_logo{
     display: flex;
     flex-direction: row;
+ 
     /* border: 2px solid rgb(255, 255, 255); */
     height: 40px;
-    margin-top: 10px;
-    margin-left: 10px;
+    width: 55%;
+    justify-content: center;
+    margin-top: 5px;
+   
+    
 }
 #avatar_img{
     height: 40px;
 
 }
+.name_logo p{
+  align-items: center;
+}
 .name_1{
-    margin-top: 12px;
-    margin-left: 12px;
+   
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
     font-family: myfont_1;
     font-weight: 670;
 }
