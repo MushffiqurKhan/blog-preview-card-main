@@ -92,7 +92,7 @@ h3{
 
 @media (max-width: 939px) {
   .container {
-    height: 480px;
+    height: 450px;
     width: 30%;
   }
   .name_logo {
@@ -108,7 +108,7 @@ h3{
 
 @media (max-width: 810px) {
   .container {
-    height: 500px;
+    height: 475px;
     width: 32%;
 
   }
@@ -117,7 +117,7 @@ h3{
 
 @media (max-width: 676px) {
   .container {
-    height: 520px;
+    height: 490px;
     width: 34%;
 
   }
@@ -125,7 +125,7 @@ h3{
 
 @media (max-width: 604px) {
   .container {
-    height: 700px;
+    height: 500px;
     width: 36%;
 
   }
@@ -135,3 +135,9 @@ h3{
     flex-direction: row;
   }
 }
+@media (max-width: 475px) {
+  .container {
+    height: 550px;
+    width: 36%;
+
+  }}
