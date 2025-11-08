@@ -24,7 +24,7 @@ body{
 .container{
     border: 2px solid black;
     height: 450px;
-    width: 25%;
+    max-width: 29%;
     box-shadow: 6px 7px 0px 2px #000000;
     border-radius: 10px;
     background-color: aliceblue;
@@ -73,14 +73,9 @@ h3{
 .name_logo{
     display: flex;
     flex-direction: row;
- 
-    /* border: 2px solid rgb(255, 255, 255); */
+    /* border: 2px solid rgb(228, 52, 52); */
     height: 40px;
-    width: 55%;
-    justify-content: center;
-    margin-top: 5px;
-   
-    
+    margin :20px 0 0 10px;
 }
 #avatar_img{
     height: 40px;
@@ -98,31 +93,35 @@ h3{
     font-family: myfont_1;
     font-weight: 670;
 }
-@media (max-width: 1024px) {
-  .container {
-    width: 40%;
-    height: auto;
+@media (max-width :939px) {
+  .container{
+    min-width: 35%;
+    height: 445px;
+  }
+}
+@media (max-width :775px) {
+  .container{
+    min-width: 45%;
+    height: 450px;
   }
 }
 
-@media (max-width: 768px) {
-  .container {
-    width: 60%;
-    height: auto;
+@media (max-width :590px) {
+  .container{
+    min-width: 60%;
+    /* flex-direction: column; */
+    height: 445px;
   }
 }
-
-@media (max-width: 480px) {
-  .container {
-    width: 85%;
-    height: auto;
+@media (max-width : 435px) {
+  .container{
+    min-width: 70%;
   }
+  
 }
-
-@media (max-width: 360px) {
-  .container {
-    width: 90%;
-    height: auto;
+@media (max-width : 390px) {
+  .container{
+    min-width: 80%;
   }
+  
 }
-
