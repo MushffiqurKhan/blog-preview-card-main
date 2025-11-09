@@ -110,7 +110,7 @@ h3{
   .container{
     min-width: 60%;
     /* flex-direction: column; */
-    height: 445px;
+    height: 450px;
   }
 }
 @media (max-width : 435px) {
@@ -122,6 +122,7 @@ h3{
 @media (max-width : 390px) {
   .container{
     min-width: 80%;
+    height: auto;
   }
   
 }
