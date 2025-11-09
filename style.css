@@ -95,33 +95,33 @@ h3{
 }
 @media (max-width :939px) {
   .container{
-    min-width: 35%;
-    height: 445px;
+    min-width: 32%;
+    height: auto;
   }
 }
 @media (max-width :775px) {
   .container{
-    min-width: 45%;
-    height: 450px;
+    min-width: 40%;
+    height: auto;
   }
 }
 
 @media (max-width :590px) {
   .container{
-    min-width: 60%;
+    min-width: 53%;
     /* flex-direction: column; */
-    height: 450px;
+    height: auto;
   }
 }
 @media (max-width : 435px) {
   .container{
-    min-width: 70%;
+    min-width: 60%;
   }
   
 }
 @media (max-width : 390px) {
   .container{
-    min-width: 80%;
+    min-width: 60%;
     height: auto;
   }
   
