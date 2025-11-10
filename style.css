@@ -73,9 +73,9 @@ h3{
 .name_logo{
     display: flex;
     flex-direction: row;
-    /* border: 2px solid rgb(228, 52, 52); */
-    height: 40px;
-    margin :10px 0 0 10px;
+    /* border:  solid rgb(228, 52, 52); */
+    
+    margin :10px 0 10px 10px;
 }
 #avatar_img{
     height: 40px;
